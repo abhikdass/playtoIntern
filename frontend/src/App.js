@@ -145,32 +145,6 @@ function App() {
                   </div>
                 </div>
               </div>
-
-              {/* Community Stats */}
-              <div className="card" style={{ marginTop: '1.5rem' }}>
-                <h3 style={{ 
-                  margin: '0 0 1rem 0', 
-                  fontSize: '1.1rem', 
-                  color: '#1f2937',
-                  fontWeight: '600'
-                }}>
-                  📊 Community Stats
-                </h3>
-                <div style={{ fontSize: '0.85rem', color: '#6b7280', lineHeight: '1.5' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-                    <span>Posts Today</span>
-                    <strong style={{ color: '#667eea' }}>12</strong>
-                  </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem' }}>
-                    <span>Comments Today</span>
-                    <strong style={{ color: '#667eea' }}>34</strong>
-                  </div>
-                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <span>Active Users</span>
-                    <strong style={{ color: '#667eea' }}>8</strong>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
