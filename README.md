@@ -10,7 +10,7 @@
 
 1. Navigate to the project root directory:
     ```bash
-    cd InternshipAssessment
+    cd playtoIntern
     ```
 
 2. Create and activate a virtual environment (recommended):
