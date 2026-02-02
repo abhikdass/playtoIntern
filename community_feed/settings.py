@@ -146,11 +146,12 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://playto-intern.vercel.app",
 ]
 
 # Add Vercel frontend URL from environment
 VERCEL_URL = os.environ.get('FRONTEND_URL')
-if VERCEL_URL:
+if VERCEL_URL and VERCEL_URL not in CORS_ALLOWED_ORIGINS:
     CORS_ALLOWED_ORIGINS.append(VERCEL_URL)
 
 CORS_ALLOW_CREDENTIALS = True
