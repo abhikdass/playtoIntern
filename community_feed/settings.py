@@ -154,6 +154,3 @@ if VERCEL_URL:
     CORS_ALLOWED_ORIGINS.append(VERCEL_URL)
 
 CORS_ALLOW_CREDENTIALS = True
-
-# Allow frontend on localhost during development
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
